@@ -84,7 +84,6 @@ audio {
     text-align: justify; /* Justify text in the element description */
 }
 
-/* Sidebar styles */
 .sidebar {
     height: 100%;
     width: 0;
@@ -130,6 +129,11 @@ audio {
 
 .openbtn:hover {
     background-color: #444;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
 }
 
 /* Nested list styles */

@@ -12,81 +12,44 @@
         <h1>Beyond Sunlight: An Aquatic Chemosynthetic World</h1>
         <h2>Space Apps 2024 - Team Kosmos (Quebec, Canada)</h2>
     </header>
-    <div id="sidebar" class="sidebar">
+    <div id="mySidebar" class="sidebar">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-        <ul class="menu">
-            <li><a href="index.html">Home</a></li>
-            <li>Planet
-                <ul>
-                    <li><a href="sublevels/ice_crusted.html">A ice-crusted liquid water-world below multiple moons</a></li>
-                    <li>Sun-deprived but locally rich ocean depths
-                        <ul>
-                            <li><a href="sublevels/abiotic_factors.html">Abiotic factors</a></li>
-                            <li><a href="sublevels/biotic_factors.html">Biotic factors</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-            <li>Life
-                <ul>
-                    <li>Biomass
-                        <ul>
-                            <li><a href="sublevels/luminarae_abyssalis.html">Luminarae Abyssalis</a></li>
-                            <li><a href="sublevels/thermocorallia_gigantica.html">Thermocorallia Gigantica</a></li>
-                            <li><a href="sublevels/hydroplasmae_ventricosa.html">Hydroplasmae Ventricosa</a></li>
-                            <li><a href="sublevels/ventiferae_colossus.html">Ventiferae Colossus</a></li>
-                        </ul>
-                    </li>
-                    <li>1st layer consumers
-                        <ul>
-                            <li><a href="sublevels/microplanktus_filamentis.html">Microplanktus filamentis</a></li>
-                            <li><a href="sublevels/tabulae_filter.html">Tabulae filter</a></li>
-                        </ul>
-                    </li>
-                    <li>2nd layer consumers
-                        <ul>
-                            <li><a href="sublevels/tubulus_inanis.html">Tubulus inanis</a></li>
-                            <li><a href="sublevels/helicoidus_peis.html">Helicoidus peis</a></li>
-                            <li><a href="sublevels/abyssus_leviathan.html">Abyssus leviathan</a></li>
-                        </ul>
-                    </li>
-                    <li>Decomposers
-                        <ul>
-                            <li><a href="sublevels/vacuum_solvantis.html">Vacuum solvantis</a></li>
-                            <li><a href="sublevels/vermis_herbertis.html">Vermis herbertis</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-        </ul>
+        <a href="sublevels/ice_crusted.html">Ice-crusted Liquid Water-world</a>
+        <a href="sublevels/sun_deprived.html">Sun-deprived Ocean Depths</a>
+        <a href="sublevels/biomass.html">Biomass</a>
+        <a href="sublevels/first_layer_consumers.html">1st Layer Consumers</a>
+        <a href="sublevels/second_layer_consumers.html">2nd Layer Consumers</a>
+        <a href="sublevels/decomposers.html">Decomposers</a>
     </div>
-    <span class="openbtn" onclick="openNav()">☰ Menu</span>
-    <main>
-        <p class="preamble">Earth’s particular physico-chemical conditions have allowed the apparition of life, but also its evolution into more complex forms. Through time, ecosystems have developed in such a way that the very core of the energy forming process begins with photosynthesis, which derives its energy from the sun to create organic compounds such as glucose. That said, earth's abyss has shown that there are other ways to generate such energy, to make an ecosystem flourish. Considering this, it is conceivable that life could exist in the deep oceans of exoplanets, driven by abiotic factors that create conditions suitable for life. In such environments, fauna would rely on chemosynthesis to generate organic materials and energy. But what might one of these hypothetical worlds look like?</p>
-        <div class="media-container">
-            <audio controls>
-                <source src="media/kosmos.wav" type="audio/wav">
-                Your browser does not support the audio element.
-            </audio>
-            <div class="image-section">
-                <h3>Planet</h3>
-                <img src="images/view_planet_1.jpeg" alt="Planet" class="ecosystem-image" usemap="#planet-map">
-                <map name="planet-map">
-                    <area shape="circle" coords="739,220,248" alt="Ice-crusted Liquid Water-world" href="sublevels/ice_crusted.html">
-                    <area shape="rect" coords="11,480,1018,1014" alt="Sun-deprived Ocean Depths" href="sublevels/sun_deprived.html">
-                </map>
+    <div id="main">
+        <button class="openbtn" onclick="openNav()">☰ Menu</button>
+        <main>
+            <p class="preamble">Earth’s particular physico-chemical conditions have allowed the apparition of life, but also its evolution into more complex forms. Through time, ecosystems have developed in such a way that the very core of the energy forming process begins with photosynthesis, which derives its energy from the sun to create organic compounds such as glucose. That said, earth's abyss has shown that there are other ways to generate such energy, to make an ecosystem flourish. Considering this, it is conceivable that life could exist in the deep oceans of exoplanets, driven by abiotic factors that create conditions suitable for life. In such environments, fauna would rely on chemosynthesis to generate organic materials and energy. But what might one of these hypothetical worlds look like?</p>
+            <div class="media-container">
+                <audio controls>
+                    <source src="media/kosmos.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+                <div class="image-section">
+                    <h3>Planet</h3>
+                    <img src="images/view_planet_1.jpeg" alt="Planet" class="ecosystem-image" usemap="#planet-map">
+                    <map name="planet-map">
+                        <area shape="circle" coords="739,220,248" alt="Ice-crusted Liquid Water-world" href="sublevels/ice_crusted.html">
+                        <area shape="rect" coords="11,480,1018,1014" alt="Sun-deprived Ocean Depths" href="sublevels/sun_deprived.html">
+                    </map>
+                </div>
+                <div class="image-section">
+                    <h3>Life</h3>
+                    <img src="images/deepsee_1.jpeg" alt="Life" class="ecosystem-image" usemap="#life-map">
+                    <map name="life-map">
+                        <area shape="rect" coords="9,787,1017,560" alt="Biomass" href="sublevels/biomass.html">
+                        <area shape="rect" coords="6,453,1014,226" alt="1st Layer Consumers" href="sublevels/first_layer_consumers.html">
+                        <area shape="rect" coords="0,228,1008,1" alt="2nd Layer Consumers" href="sublevels/second_layer_consumers.html">
+                        <area shape="rect" coords="2,1021,1010,794" alt="Decomposers" href="sublevels/decomposers.html">
+                    </map>
+                </div>
             </div>
-            <div class="image-section">
-                <h3>Life</h3>
-                <img src="images/deepsee_1.jpeg" alt="Life" class="ecosystem-image" usemap="#life-map">
-                <map name="life-map">
-                    <area shape="rect" coords="9,787,1017,560" alt="Biomass" href="sublevels/biomass.html">
-                    <area shape="rect" coords="6,453,1014,226" alt="1st Layer Consumers" href="sublevels/first_layer_consumers.html">
-                    <area shape="rect" coords="0,228,1008,1" alt="2nd Layer Consumers" href="sublevels/second_layer_consumers.html">
-                    <area shape="rect" coords="2,1021,1010,794" alt="Decomposers" href="sublevels/decomposers.html">
-                </map>
-            </div>
-        </div>
-    </main>
+        </main>
+    </div>
 </body>
 </html>
