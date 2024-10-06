@@ -1,4 +1,4 @@
-# NASA international Space Apps 2024
+# NASA International Space Apps 2024
 # Challenge : "Beyond Sunlight: An Aquatic Chemosynthetic World"
 https://www.spaceappschallenge.org/nasa-space-apps-2024/challenges/beyond-sunlight-an-aquatic-chemosynthetic-world/
 ## Team : KOSMOS (Montréal, Canada) with : Abel Biard (CIMF), Julien Lachaine (Brebeuf)
