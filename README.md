@@ -5,7 +5,7 @@ https://www.spaceappschallenge.org/nasa-space-apps-2024/challenges/beyond-sunlig
 ## Hackathon location : Sherbrooke University (Qc)
 
 ### Report
-Link to google doc : 
+Link to google doc : https://docs.google.com/document/d/1WarNijMo0cWSod6omyd2M_grJle207853qP2Avs2x3s/edit?usp=sharing
 A pdf of this report can be found in the repo
 
 ### Website
